@@ -10,7 +10,7 @@ contract GiggleGem {
     uint256 private _totalSupply = 10 * 10**12;
     
     uint8 private _buyTaxPercentage = 8;
-    uint8 private _sellTaxPercentage = 9;
+    uint8 private _sellTaxPercentage = 8;
     uint8 private _reflectionPercentage = 4;
     uint8 private _burnPercentage = 1;
     uint8 private _redistributionPercentage = 4;
