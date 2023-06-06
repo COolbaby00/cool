@@ -14,7 +14,7 @@ contract GiggleGem {
     uint8 private _reflectionPercentage = 4;
     uint8 private _burnPercentage = 1;
     uint8 private _redistributionPercentage = 4;
-    uint8 private _sellBurnPercentage = 2;
+    uint8 private _sellBurnPercentage = 1;
     
     bool private _isReflectionEnabled = true;
     bool private _isBurnEnabled = true;
@@ -143,7 +143,7 @@ contract GiggleGem {
         _sellTaxPercentage = percentage;
     }
     
-uint256 private _marketingFeePercentage = 0; // Initialize with a default value
+uint256 private _marketingFeePercentage = 3; // Initialize with a default value
 
 function setMarketingFeePercentage(uint256 percentage) external {
     _marketingFeePercentage = percentage;
